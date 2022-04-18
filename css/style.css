@@ -293,7 +293,7 @@ body{
     row-gap: 30px;
     column-gap: 2.439%;
 }
-.featured-courses__item {
+/* .featured-courses__item {
     display: flex;
     flex: 1 1 48.78%;
     min-width: 450px;
@@ -308,8 +308,21 @@ body{
     transform: scale(1.01);
     background: #FFFFFF;
     box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
-}
+} */
 .cutaway {
+    display: flex;
+    flex: 1 1 48.78%;
+    min-width: 450px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}
+.cutaway:hover {
+    transform: scale(1.01);
+    background: #FFFFFF;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
 }
 .cutaway__image {
     width: 214px;
